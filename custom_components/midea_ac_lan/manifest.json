@@ -9,8 +9,6 @@
   "iot_class": "local_push",
   "issue_tracker": "https://github.com/wuwentao/midea_ac_lan/issues",
   "loggers": ["midealocal"],
-  "requirements": [
-    "midea-local@https://github.com/cold-snap/midea-local/archive/c8d78c1b5a0f75f439efd17167fc00d241e05238.tar.gz"
-  ],
+  "requirements": ["midea-local==6.10.0"],
   "version": "0.6.12"
 }
