@@ -55,13 +55,8 @@
 | sensor.{DEVICEID}\_realtime_power                     | sensor        | Realtime Power                     | 实时功率         |
 | sensor.{DEVICEID}\_compressor_frequency               | sensor        | Compressor Frequency               | 压缩机频率       |
 | sensor.{DEVICEID}\_compressor_target_frequency        | sensor        | Compressor Target Frequency        | 压缩机目标频率   |
-| sensor.{DEVICEID}\_compressor_current                 | sensor        | Compressor Current                 | 压缩机电流       |
-| sensor.{DEVICEID}\_outdoor_unit_total_current         | sensor        | Outdoor Unit Total Current         | 室外机总电流     |
-| sensor.{DEVICEID}\_outdoor_unit_voltage               | sensor        | Outdoor Unit Voltage               | 室外机有效电压   |
-| sensor.{DEVICEID}\_estimated_realtime_power           | sensor        | Estimated Realtime Power           | 估算实时功率     |
-| sensor.{DEVICEID}\_estimated_total_energy_consumption | sensor        | Estimated Total Energy Consumption | 估算总耗电       |
-| sensor.{DEVICEID}\_estimated_daily_energy_consumption | sensor        | Estimated Daily Energy Consumption | 估算今日耗电     |
 | fan.{DEVICEID}\_fresh_air                             | fan           | Fresh Air                          | 新风             |
+| fan.{DEVICEID}\_fresh_air_exhaust                     | fan           | Fresh Air Exhaust                  | 排风（特定型号） |
 | switch.{DEVICEID}\_aux_heating                        | switch        | Aux Heating                        | 电辅热           |
 | switch.{DEVICEID}\_boost_mode                         | switch        | Boost Mode                         | 强劲模式         |
 | switch.{DEVICEID}\_breezeless                         | switch        | Breezeless                         | 无风感           |

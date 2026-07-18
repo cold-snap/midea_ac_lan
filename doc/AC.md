@@ -68,15 +68,10 @@ Known settings:
 | sensor.{DEVICEID}\_realtime_power                     | sensor        | Realtime Power                     |
 | sensor.{DEVICEID}\_compressor_frequency               | sensor        | Compressor Frequency               |
 | sensor.{DEVICEID}\_compressor_target_frequency        | sensor        | Compressor Target Frequency        |
-| sensor.{DEVICEID}\_compressor_current                 | sensor        | Compressor Current                 |
-| sensor.{DEVICEID}\_outdoor_unit_total_current         | sensor        | Outdoor Unit Total Current         |
-| sensor.{DEVICEID}\_outdoor_unit_voltage               | sensor        | Outdoor Unit Voltage               |
-| sensor.{DEVICEID}\_estimated_realtime_power           | sensor        | Estimated Realtime Power           |
-| sensor.{DEVICEID}\_estimated_total_energy_consumption | sensor        | Estimated Total Energy Consumption |
-| sensor.{DEVICEID}\_estimated_daily_energy_consumption | sensor        | Estimated Daily Energy Consumption |
 | sensor.{DEVICEID}\_pmv                                | sensor        | PMV (Predicted Mean Vote)          |
 | sensor.{DEVICEID}\_error_code                         | sensor        | Error Code                         |
 | fan.{DEVICEID}\_fresh_air                             | fan           | Fresh Air Fan                      |
+| fan.{DEVICEID}\_fresh_air_exhaust                     | fan           | Fresh Air Exhaust (model-dependent) |
 | switch.{DEVICEID}\_anion                              | switch        | Anion (Ionizer)                    |
 | switch.{DEVICEID}\_aux_heating                        | switch        | Aux Heating                        |
 | switch.{DEVICEID}\_boost_mode                         | switch        | Boost Mode                         |
